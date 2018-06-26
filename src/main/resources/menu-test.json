@@ -1,0 +1,19 @@
+{
+  "button": [
+    {
+      "name": "假期统计",
+      "type": "view",
+      "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaa9e65bbf30533a6&redirect_uri=http%3A%2F%2Fweixin.leave.shuaizhang.top%2Frest%2Foauth2%2Fbase%2Fallow&response_type=code&scope=snsapi_base&state=statistics#wechat_redirect"
+    },
+    {
+      "name": "请假历史",
+      "type": "view",
+      "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaa9e65bbf30533a6&redirect_uri=http%3A%2F%2Fweixin.leave.shuaizhang.top%2Frest%2Foauth2%2Fbase%2Fallow&response_type=code&scope=snsapi_base&state=history#wechat_redirect"
+    },
+    {
+      "name": "关于我",
+      "type": "view",
+      "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaa9e65bbf30533a6&redirect_uri=http%3A%2F%2Fweixin.leave.shuaizhang.top%2Frest%2Foauth2%2Fbase%2Fallow&response_type=code&scope=snsapi_base&state=aboutMe#wechat_redirect"
+    }
+  ]
+}
