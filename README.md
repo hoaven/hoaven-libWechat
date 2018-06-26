@@ -4,7 +4,7 @@
 ### 二、使用
 #### 1、创建菜单
 - 在`menu-test.json`中写上待创建的菜单内容，菜单项的授权认证url可以调用`ClientTest.getAuthorizeBaseUrl()`获得；
-- 调用WeChatClient.main()即可创建菜单；
+- 调用`WeChatClient.main()`即可创建菜单；
 #### 2、二次封装
 >本项目只是基础包，其中是不包含公众号的`AppId和Secret`，如果要在自己项目中使用，需要继承本项目的`AbstractWeChatClient`进行二次封装；
 
